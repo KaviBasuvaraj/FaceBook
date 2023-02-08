@@ -391,7 +391,7 @@ public class BaseClass {
 	}
 
 	public static String readDataFromExcel(int sheetNo, int rowNo, int cellNo) throws IOException {
-		File f = new File("C:\\Users\\KAVI B\\eclipse-workspace\\FaceBook\\Excel\\DATA.xlsx");
+		File f = new File("C:\\Users\\KAVI B\\Desktop\\Facebook\\FaceBook\\Excel\\DATA.xlsx");
 		FileInputStream fil = new FileInputStream(f);
 		Workbook w = new XSSFWorkbook(fil);
 		Sheet sheet = w.getSheetAt(sheetNo);
