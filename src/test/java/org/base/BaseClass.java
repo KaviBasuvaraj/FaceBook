@@ -357,6 +357,7 @@ public class BaseClass {
 
 	public static void switchWindowById(String id) {
 		driver.switchTo().window(id);
+		
 	}
 
 	public static void tableCount() {
@@ -416,5 +417,12 @@ public class BaseClass {
 		return input;
 
 	}
+	
+	public static void s1() {
+	    
+         System.out.println(10/5);
+	}
+	
+	
 
 }
